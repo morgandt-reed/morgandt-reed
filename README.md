@@ -79,9 +79,9 @@ TypeScript CDK patterns: VPC, ECS Fargate, Aurora Serverless, Lambda APIs.
 
 Event sourcing, CQRS, saga patterns with RabbitMQ and PostgreSQL event store.
 
-[![Monitoring Stack](https://img.shields.io/badge/Prometheus-Observability_Stack-E6522C?style=flat-square&logo=prometheus)](https://github.com/morgandt-reed/monitoring-observability-stack)
+[![CI/CD Pipelines](https://img.shields.io/badge/GitHub_Actions-CI/CD_Templates-2088FF?style=flat-square&logo=githubactions)](https://github.com/morgandt-reed/cicd-pipeline-templates)
 
-Complete observability with Prometheus, Grafana, Loki, and Alertmanager.
+Production CI/CD templates for Docker, Terraform, Python, and Kubernetes with security scanning.
 
 </td>
 </tr>
@@ -105,17 +105,6 @@ Enterprise RAG system with multi-step reasoning, hybrid search, source attributi
 
 </td>
 </tr>
-<tr>
-<td colspan="2">
-
-### CI/CD & Automation
-
-[![CI/CD Pipelines](https://img.shields.io/badge/GitHub_Actions-CI/CD_Pipelines-2088FF?style=flat-square&logo=githubactions)](https://github.com/morgandt-reed/cicd-pipeline-templates)
-
-Production CI/CD templates for Docker, Terraform, Python, and Kubernetes deployments with security scanning.
-
-</td>
-</tr>
 </table>
 
 ---
@@ -132,19 +121,7 @@ Production CI/CD templates for Docker, Terraform, Python, and Kubernetes deploym
 | **AI/ML** | ![LangChain](https://img.shields.io/badge/-LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white) ![OpenAI](https://img.shields.io/badge/-OpenAI-412991?style=flat-square&logo=openai&logoColor=white) ![ChromaDB](https://img.shields.io/badge/-ChromaDB-FF6F61?style=flat-square) |
 | **Observability** | ![Prometheus](https://img.shields.io/badge/-Prometheus-E6522C?style=flat-square&logo=prometheus&logoColor=white) ![Grafana](https://img.shields.io/badge/-Grafana-F46800?style=flat-square&logo=grafana&logoColor=white) ![Loki](https://img.shields.io/badge/-Loki-F46800?style=flat-square&logo=grafana&logoColor=white) |
 | **Backend Frameworks** | ![Spring Boot](https://img.shields.io/badge/-Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white) ![FastAPI](https://img.shields.io/badge/-FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white) |
-| **Languages** | ![Java](https://img.shields.io/badge/-Java-007396?style=flat-square&logo=openjdk&logoColor=white) ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white) ![HCL](https://img.shields.io/badge/-HCL-7B42BC?style=flat-square) ![SQL](https://img.shields.io/badge/-SQL-4479A1?style=flat-square&logo=mysql&logoColor=white) |
-
-</div>
-
----
-
-## GitHub Stats
-
-<div align="center">
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=morgandt-reed&show_icons=true&theme=default&hide_border=true&count_private=true)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=morgandt-reed&layout=compact&theme=default&hide_border=true)
+| **Languages** | ![Java](https://img.shields.io/badge/-Java-007396?style=flat-square&logo=openjdk&logoColor=white) ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white) ![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![HCL](https://img.shields.io/badge/-HCL-7B42BC?style=flat-square) ![SQL](https://img.shields.io/badge/-SQL-4479A1?style=flat-square&logo=mysql&logoColor=white) |
 
 </div>
 
