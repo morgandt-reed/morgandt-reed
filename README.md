@@ -6,7 +6,8 @@
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/YOUR_LINKEDIN)
 [![Email](https://img.shields.io/badge/Email-Contact-red?style=for-the-badge&logo=gmail)](mailto:your.email@example.com)
-[![Portfolio](https://img.shields.io/badge/Portfolio-7_Projects-green?style=for-the-badge&logo=github)](https://github.com/morgandt-reed?tab=repositories)
+[![Portfolio](https://img.shields.io/badge/Portfolio-8_Projects-green?style=for-the-badge&logo=github)](https://github.com/morgandt-reed?tab=repositories)
+[![Tech Radar](https://img.shields.io/badge/Tech_Radar-Skills-orange?style=for-the-badge&logo=target)](https://gist.github.com/morgandt-reed/ceba0f61b20253c9d3de2b7b284ed396)
 
 *Specializing in containerization, data platforms, cloud infrastructure, and AI integration*
 
@@ -44,15 +45,25 @@ Enterprise K8s manifests, Helm charts, blue-green & canary deployment strategies
 </td>
 <td width="50%">
 
-### Infrastructure & DevOps
+### Backend & Enterprise
 
-[![Terraform IaC](https://img.shields.io/badge/Terraform-IaC_Demos-7B42BC?style=flat-square&logo=terraform)](https://github.com/morgandt-reed/infrastructure-as-code-demos)
+[![Spring Boot](https://img.shields.io/badge/Spring_Boot-Microservices-6DB33F?style=flat-square&logo=springboot)](https://github.com/morgandt-reed/spring-boot-microservices)
 
-Reusable Terraform modules for AWS: VPC, Databricks workspace, Docker hosts with CI/CD validation.
+Spring Cloud microservices with Eureka, Gateway, JWT auth, RabbitMQ, Redis caching, and distributed tracing.
 
 [![Monitoring Stack](https://img.shields.io/badge/Prometheus-Observability_Stack-E6522C?style=flat-square&logo=prometheus)](https://github.com/morgandt-reed/monitoring-observability-stack)
 
 Complete observability with Prometheus, Grafana, Loki, and Alertmanager.
+
+</td>
+</tr>
+<tr>
+<td colspan="2">
+
+### Infrastructure & DevOps
+
+[![Terraform IaC](https://img.shields.io/badge/Terraform-IaC_Demos-7B42BC?style=flat-square&logo=terraform)](https://github.com/morgandt-reed/infrastructure-as-code-demos)
+Reusable Terraform modules for AWS: VPC, Databricks workspace, Docker hosts with CI/CD validation.
 
 </td>
 </tr>
@@ -102,7 +113,8 @@ Production CI/CD templates for Docker, Terraform, Python, and Kubernetes deploym
 | **Data Engineering** | ![Databricks](https://img.shields.io/badge/-Databricks-FF3621?style=flat-square&logo=databricks&logoColor=white) ![Apache Spark](https://img.shields.io/badge/-Spark-E25A1C?style=flat-square&logo=apachespark&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white) |
 | **AI/ML** | ![LangChain](https://img.shields.io/badge/-LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white) ![OpenAI](https://img.shields.io/badge/-OpenAI-412991?style=flat-square&logo=openai&logoColor=white) ![ChromaDB](https://img.shields.io/badge/-ChromaDB-FF6F61?style=flat-square) |
 | **Observability** | ![Prometheus](https://img.shields.io/badge/-Prometheus-E6522C?style=flat-square&logo=prometheus&logoColor=white) ![Grafana](https://img.shields.io/badge/-Grafana-F46800?style=flat-square&logo=grafana&logoColor=white) ![Loki](https://img.shields.io/badge/-Loki-F46800?style=flat-square&logo=grafana&logoColor=white) |
-| **Languages** | ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white) ![HCL](https://img.shields.io/badge/-HCL-7B42BC?style=flat-square) ![SQL](https://img.shields.io/badge/-SQL-4479A1?style=flat-square&logo=mysql&logoColor=white) ![YAML](https://img.shields.io/badge/-YAML-CB171E?style=flat-square) |
+| **Backend Frameworks** | ![Spring Boot](https://img.shields.io/badge/-Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white) ![FastAPI](https://img.shields.io/badge/-FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white) |
+| **Languages** | ![Java](https://img.shields.io/badge/-Java-007396?style=flat-square&logo=openjdk&logoColor=white) ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white) ![HCL](https://img.shields.io/badge/-HCL-7B42BC?style=flat-square) ![SQL](https://img.shields.io/badge/-SQL-4479A1?style=flat-square&logo=mysql&logoColor=white) |
 
 </div>
 
