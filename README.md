@@ -6,7 +6,7 @@
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/YOUR_LINKEDIN)
 [![Email](https://img.shields.io/badge/Email-Contact-red?style=for-the-badge&logo=gmail)](mailto:your.email@example.com)
-[![Portfolio](https://img.shields.io/badge/Portfolio-8_Projects-green?style=for-the-badge&logo=github)](https://github.com/morgandt-reed?tab=repositories)
+[![Portfolio](https://img.shields.io/badge/Portfolio-10_Projects-green?style=for-the-badge&logo=github)](https://github.com/morgandt-reed?tab=repositories)
 [![Tech Radar](https://img.shields.io/badge/Tech_Radar-Skills-orange?style=for-the-badge&logo=target)](https://gist.github.com/morgandt-reed/ceba0f61b20253c9d3de2b7b284ed396)
 
 *Specializing in containerization, data platforms, cloud infrastructure, and AI integration*
@@ -58,12 +58,30 @@ Complete observability with Prometheus, Grafana, Loki, and Alertmanager.
 </td>
 </tr>
 <tr>
-<td colspan="2">
+<td width="50%">
 
 ### Infrastructure & DevOps
 
 [![Terraform IaC](https://img.shields.io/badge/Terraform-IaC_Demos-7B42BC?style=flat-square&logo=terraform)](https://github.com/morgandt-reed/infrastructure-as-code-demos)
-Reusable Terraform modules for AWS: VPC, Databricks workspace, Docker hosts with CI/CD validation.
+
+Reusable Terraform modules for AWS: VPC, Databricks workspace, Docker hosts.
+
+[![AWS CDK](https://img.shields.io/badge/AWS_CDK-Cloud_Patterns-FF9900?style=flat-square&logo=amazonaws)](https://github.com/morgandt-reed/aws-cdk-patterns)
+
+TypeScript CDK patterns: VPC, ECS Fargate, Aurora Serverless, Lambda APIs.
+
+</td>
+<td width="50%">
+
+### Event-Driven & Messaging
+
+[![Event-Driven](https://img.shields.io/badge/RabbitMQ-Event_Driven-FF6600?style=flat-square&logo=rabbitmq)](https://github.com/morgandt-reed/event-driven-architecture)
+
+Event sourcing, CQRS, saga patterns with RabbitMQ and PostgreSQL event store.
+
+[![Monitoring Stack](https://img.shields.io/badge/Prometheus-Observability_Stack-E6522C?style=flat-square&logo=prometheus)](https://github.com/morgandt-reed/monitoring-observability-stack)
+
+Complete observability with Prometheus, Grafana, Loki, and Alertmanager.
 
 </td>
 </tr>
