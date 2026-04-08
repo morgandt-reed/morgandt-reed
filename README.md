@@ -6,10 +6,10 @@
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/YOUR_LINKEDIN)
 [![Email](https://img.shields.io/badge/Email-Contact-red?style=for-the-badge&logo=gmail)](mailto:your.email@example.com)
-[![Portfolio](https://img.shields.io/badge/Portfolio-11_Projects-green?style=for-the-badge&logo=github)](https://github.com/morgandt-reed?tab=repositories)
+[![Portfolio](https://img.shields.io/badge/Portfolio-18_Projects-green?style=for-the-badge&logo=github)](https://github.com/morgandt-reed?tab=repositories)
 [![Tech Radar](https://img.shields.io/badge/Tech_Radar-Skills-orange?style=for-the-badge&logo=target)](https://gist.github.com/morgandt-reed/ceba0f61b20253c9d3de2b7b284ed396)
 
-*Specializing in containerization, data platforms, cloud infrastructure, and AI integration*
+*Specializing in systems programming, cloud infrastructure, data platforms, and AI integration*
 
 </div>
 
@@ -17,11 +17,12 @@
 
 ## About Me
 
-Solutions Engineer with expertise in designing and implementing enterprise-grade systems. I bridge the gap between complex technical requirements and practical, scalable solutions. My work focuses on:
+Solutions Engineer with expertise in designing and implementing enterprise-grade systems — from kernel-level drivers to cloud-native platforms. I bridge the gap between complex technical requirements and practical, scalable solutions. My work focuses on:
 
+- **Systems Programming** - Kernel drivers, memory management, low-level process interaction
 - **Platform Engineering** - Building robust infrastructure for development teams
 - **Data Architecture** - Designing scalable data pipelines and analytics platforms
-- **AI/ML Integration** - Implementing production-ready AI systems with proper MLOps
+- **AI/ML Integration** - Implementing production-ready AI systems and agentic workflows
 - **DevOps & SRE** - Ensuring reliability, observability, and operational excellence
 
 ---
@@ -29,6 +30,50 @@ Solutions Engineer with expertise in designing and implementing enterprise-grade
 ## Featured Projects
 
 <table>
+<tr>
+<td width="50%">
+
+### Systems Programming & Low-Level
+
+[![App Framework](https://img.shields.io/badge/Go-Automation_Framework-00ADD8?style=flat-square&logo=go)](https://github.com/morgandt-reed/app)
+
+Multi-layered automation framework in Go. A* pathfinding, event-driven scheduling, WebSocket/HTTP UI, and code obfuscation via Garble. Communicates with a custom kernel driver through a Go abstraction layer.
+
+[![Kernel Driver](https://img.shields.io/badge/C-WDM_Kernel_Driver-A8B9CC?style=flat-square&logo=c)](https://github.com/morgandt-reed/appdriver)
+
+WDM kernel driver (C/WDK) exposing IOCTLs for process memory R/W (`MmCopyVirtualMemory`), virtual memory allocation, APC injection, thread enumeration, and handle manipulation. Supports Hyper-V GPU-PV virtualization.
+
+[![Engine Library](https://img.shields.io/badge/Go-Memory_Access_Library-00ADD8?style=flat-square&logo=go)](https://github.com/morgandt-reed/appengine)
+
+Go library providing a `MemoryAccessor` interface over the kernel driver. Handles memory reading, data structure parsing, NIP rule evaluation, and process lifecycle management.
+
+[![Utils](https://img.shields.io/badge/C++-Reference_Utilities-00599C?style=flat-square&logo=cplusplus)](https://github.com/morgandt-reed/apputils)
+
+C++ reference utilities and tooling for the systems stack.
+
+</td>
+<td width="50%">
+
+### AI & Agentic Systems
+
+[![LinkedIn Agent](https://img.shields.io/badge/Python-Recruiter_Agent-3776AB?style=flat-square&logo=python)](https://github.com/morgandt-reed/linkedin-recruiter-agent)
+
+AI-powered recruitment assistant using Claude/Gemini for candidate scoring, GitHub API enrichment, and multi-output export (Google Sheets, Notion, email digests).
+
+[![LangGraph RAG](https://img.shields.io/badge/LangGraph-RAG_Assistant-412991?style=flat-square&logo=openai)](https://github.com/morgandt-reed/langgraph-rag-assistant)
+
+Enterprise RAG system with multi-step reasoning, hybrid search, source attribution, and conversation memory.
+
+[![HuggingFace Local LLM](https://img.shields.io/badge/HuggingFace-Local_LLM-FF6F00?style=flat-square&logo=huggingface)](https://github.com/morgandt-reed/huggingface-local-llm)
+
+Download, run, and fine-tune LLMs locally with LoRA/PEFT. Supports Qwen, Llama, Gemma, and more.
+
+[![JHU Agentic AI](https://img.shields.io/badge/Jupyter-Agentic_AI-F37626?style=flat-square&logo=jupyter)](https://github.com/morgandt-reed/jhu-agentic-ai)
+
+Agentic AI coursework and experiments in Jupyter Notebooks.
+
+</td>
+</tr>
 <tr>
 <td width="50%">
 
@@ -70,42 +115,22 @@ Reusable Terraform modules for AWS: VPC, Databricks workspace, Docker hosts.
 
 TypeScript CDK patterns: VPC, ECS Fargate, Aurora Serverless, Lambda APIs.
 
-</td>
-<td width="50%">
-
-### Event-Driven & Messaging
-
-[![Event-Driven](https://img.shields.io/badge/RabbitMQ-Event_Driven-FF6600?style=flat-square&logo=rabbitmq)](https://github.com/morgandt-reed/event-driven-architecture)
-
-Event sourcing, CQRS, saga patterns with RabbitMQ and PostgreSQL event store.
-
 [![CI/CD Pipelines](https://img.shields.io/badge/GitHub_Actions-CI/CD_Templates-2088FF?style=flat-square&logo=githubactions)](https://github.com/morgandt-reed/cicd-pipeline-templates)
 
 Production CI/CD templates for Docker, Terraform, Python, and Kubernetes with security scanning.
 
 </td>
-</tr>
-<tr>
 <td width="50%">
 
-### Data Engineering
+### Event-Driven & Data Engineering
+
+[![Event-Driven](https://img.shields.io/badge/RabbitMQ-Event_Driven-FF6600?style=flat-square&logo=rabbitmq)](https://github.com/morgandt-reed/event-driven-architecture)
+
+Event sourcing, CQRS, saga patterns with RabbitMQ and PostgreSQL event store.
 
 [![Databricks ETL](https://img.shields.io/badge/Databricks-ETL_Pipeline-FF3621?style=flat-square&logo=databricks)](https://github.com/morgandt-reed/databricks-etl-pipeline)
 
 Medallion architecture (Bronze/Silver/Gold) with PySpark, Delta Lake, and comprehensive data quality checks.
-
-</td>
-<td width="50%">
-
-### AI & Machine Learning
-
-[![LangGraph RAG](https://img.shields.io/badge/LangGraph-RAG_Assistant-412991?style=flat-square&logo=openai)](https://github.com/morgandt-reed/langgraph-rag-assistant)
-
-Enterprise RAG system with multi-step reasoning, hybrid search, source attribution, and conversation memory.
-
-[![HuggingFace Local LLM](https://img.shields.io/badge/HuggingFace-Local_LLM-FF6F00?style=flat-square&logo=huggingface)](https://github.com/morgandt-reed/huggingface-local-llm)
-
-Download, run, and fine-tune LLMs locally with LoRA/PEFT. Supports Qwen, Llama, Gemma, and more.
 
 </td>
 </tr>
@@ -119,13 +144,14 @@ Download, run, and fine-tune LLMs locally with LoRA/PEFT. Supports Qwen, Llama, 
 
 | Category | Technologies |
 |----------|-------------|
+| **Systems & Low-Level** | ![C](https://img.shields.io/badge/-C-A8B9CC?style=flat-square&logo=c&logoColor=white) ![C++](https://img.shields.io/badge/-C++-00599C?style=flat-square&logo=cplusplus&logoColor=white) ![Go](https://img.shields.io/badge/-Go-00ADD8?style=flat-square&logo=go&logoColor=white) ![WDK](https://img.shields.io/badge/-WDK-0078D4?style=flat-square&logo=windows&logoColor=white) |
 | **Containers & Orchestration** | ![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white) ![Kubernetes](https://img.shields.io/badge/-Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white) ![Helm](https://img.shields.io/badge/-Helm-0F1689?style=flat-square&logo=helm&logoColor=white) |
-| **Cloud & Infrastructure** | ![AWS](https://img.shields.io/badge/-AWS-232F3E?style=flat-square&logo=amazonaws&logoColor=white) ![Terraform](https://img.shields.io/badge/-Terraform-7B42BC?style=flat-square&logo=terraform&logoColor=white) ![GitHub Actions](https://img.shields.io/badge/-GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white) |
+| **Cloud & Infrastructure** | ![AWS](https://img.shields.io/badge/-AWS-232F3E?style=flat-square&logo=amazonaws&logoColor=white) ![Terraform](https://img.shields.io/badge/-Terraform-7B42BC?style=flat-square&logo=terraform&logoColor=white) ![GitHub Actions](https://img.shields.io/badge/-GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white) ![Hyper--V](https://img.shields.io/badge/-Hyper--V-0078D4?style=flat-square&logo=windows&logoColor=white) |
 | **Data Engineering** | ![Databricks](https://img.shields.io/badge/-Databricks-FF3621?style=flat-square&logo=databricks&logoColor=white) ![Apache Spark](https://img.shields.io/badge/-Spark-E25A1C?style=flat-square&logo=apachespark&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white) |
-| **AI/ML** | ![LangChain](https://img.shields.io/badge/-LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white) ![OpenAI](https://img.shields.io/badge/-OpenAI-412991?style=flat-square&logo=openai&logoColor=white) ![HuggingFace](https://img.shields.io/badge/-HuggingFace-FF6F00?style=flat-square&logo=huggingface&logoColor=white) ![ChromaDB](https://img.shields.io/badge/-ChromaDB-FF6F61?style=flat-square) |
+| **AI/ML** | ![LangChain](https://img.shields.io/badge/-LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white) ![Claude](https://img.shields.io/badge/-Claude-D97757?style=flat-square&logo=anthropic&logoColor=white) ![HuggingFace](https://img.shields.io/badge/-HuggingFace-FF6F00?style=flat-square&logo=huggingface&logoColor=white) ![ChromaDB](https://img.shields.io/badge/-ChromaDB-FF6F61?style=flat-square) |
 | **Observability** | ![Prometheus](https://img.shields.io/badge/-Prometheus-E6522C?style=flat-square&logo=prometheus&logoColor=white) ![Grafana](https://img.shields.io/badge/-Grafana-F46800?style=flat-square&logo=grafana&logoColor=white) ![Loki](https://img.shields.io/badge/-Loki-F46800?style=flat-square&logo=grafana&logoColor=white) |
 | **Backend Frameworks** | ![Spring Boot](https://img.shields.io/badge/-Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white) ![FastAPI](https://img.shields.io/badge/-FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white) |
-| **Languages** | ![Java](https://img.shields.io/badge/-Java-007396?style=flat-square&logo=openjdk&logoColor=white) ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white) ![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![HCL](https://img.shields.io/badge/-HCL-7B42BC?style=flat-square) ![SQL](https://img.shields.io/badge/-SQL-4479A1?style=flat-square&logo=mysql&logoColor=white) |
+| **Languages** | ![Go](https://img.shields.io/badge/-Go-00ADD8?style=flat-square&logo=go&logoColor=white) ![C](https://img.shields.io/badge/-C-A8B9CC?style=flat-square&logo=c&logoColor=white) ![C++](https://img.shields.io/badge/-C++-00599C?style=flat-square&logo=cplusplus&logoColor=white) ![Java](https://img.shields.io/badge/-Java-007396?style=flat-square&logo=openjdk&logoColor=white) ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white) ![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![HCL](https://img.shields.io/badge/-HCL-7B42BC?style=flat-square) ![SQL](https://img.shields.io/badge/-SQL-4479A1?style=flat-square&logo=mysql&logoColor=white) |
 
 </div>
 
@@ -134,9 +160,10 @@ Download, run, and fine-tune LLMs locally with LoRA/PEFT. Supports Qwen, Llama, 
 ## Let's Connect
 
 I'm always interested in discussing:
+- Systems programming and kernel-level development
 - Platform engineering and infrastructure challenges
 - Data architecture and pipeline optimization
-- AI/ML integration strategies
+- AI/ML integration and agentic workflows
 - DevOps best practices and tooling
 
 <div align="center">
