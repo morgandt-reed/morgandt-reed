@@ -4,9 +4,7 @@
 
 **Senior Solutions Engineer**
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/YOUR_LINKEDIN)
-[![Email](https://img.shields.io/badge/Email-Contact-red?style=for-the-badge&logo=gmail)](mailto:your.email@example.com)
-[![Portfolio](https://img.shields.io/badge/Portfolio-18_Projects-green?style=for-the-badge&logo=github)](https://github.com/morgandt-reed?tab=repositories)
+[![Portfolio](https://img.shields.io/badge/Portfolio-Projects-green?style=for-the-badge&logo=github)](https://github.com/morgandt-reed?tab=repositories)
 [![Tech Radar](https://img.shields.io/badge/Tech_Radar-Skills-orange?style=for-the-badge&logo=target)](https://gist.github.com/morgandt-reed/ceba0f61b20253c9d3de2b7b284ed396)
 
 *Specializing in systems programming, cloud infrastructure, data platforms, and AI integration*
@@ -166,18 +164,9 @@ I'm always interested in discussing:
 - AI/ML integration and agentic workflows
 - DevOps best practices and tooling
 
-<div align="center">
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Let's_Connect-blue?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/YOUR_LINKEDIN)
-[![Email](https://img.shields.io/badge/Email-Get_In_Touch-red?style=for-the-badge&logo=gmail)](mailto:your.email@example.com)
-
-</div>
-
 ---
 
 <div align="center">
-
-*All projects include comprehensive documentation, architecture diagrams, and are ready to deploy.*
 
 **Open to opportunities** in Solutions Engineering, Platform Engineering, and DevOps roles.
 
