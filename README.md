@@ -56,11 +56,11 @@ C++ reference utilities and tooling for the systems stack.
 
 [![LinkedIn Agent](https://img.shields.io/badge/Python-Recruiter_Agent-3776AB?style=flat-square&logo=python)](https://github.com/morgandt-reed/linkedin-recruiter-agent)
 
-AI-powered recruitment assistant using Claude/Gemini for candidate scoring, GitHub API enrichment, and multi-output export (Google Sheets, Notion, email digests).
+AI-powered recruitment assistant using Claude/Gemini for candidate scoring, GitHub API enrichment, and export to Google Sheets, JSON or email digests.
 
 [![LangGraph RAG](https://img.shields.io/badge/LangGraph-RAG_Assistant-412991?style=flat-square&logo=openai)](https://github.com/morgandt-reed/langgraph-rag-assistant)
 
-Enterprise RAG system with multi-step reasoning, hybrid search, source attribution, and conversation memory.
+LangGraph state machine over ChromaDB: calibrated confidence routing (distances converted to similarities), source attribution with page numbers, and honest fallback instead of hallucination.
 
 [![HuggingFace Local LLM](https://img.shields.io/badge/HuggingFace-Local_LLM-FF6F00?style=flat-square&logo=huggingface)](https://github.com/morgandt-reed/huggingface-local-llm)
 
