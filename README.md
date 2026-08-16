@@ -4,8 +4,8 @@
 
 **Senior Solutions Engineer**
 
-[![Repositories](https://img.shields.io/badge/Repositories-11_public-2ea44f?logo=github)](https://github.com/morgandt-reed?tab=repositories)
-[![Decision records](https://img.shields.io/badge/Decision_records-18-blue)](#how-i-decide)
+[![Repositories](https://img.shields.io/badge/Repositories-14_public-2ea44f?logo=github)](https://github.com/morgandt-reed?tab=repositories)
+[![Decision records](https://img.shields.io/badge/Decision_records-32-blue)](#how-i-decide)
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Tech Radar](https://img.shields.io/badge/Tech_Radar-Skills-orange?logo=target)](https://gist.github.com/morgandt-reed/ceba0f61b20253c9d3de2b7b284ed396)
 
@@ -34,13 +34,51 @@ cannot fail measures nothing.
 **Each README describes what the code does, not what it aspires to.** Where a
 feature is designed but not built, it sits under Roadmap and the decision record
 says so. Where a decision record describes a direction rather than the current
-contents, its status is *Proposed*, not *Accepted* — seven of the eighteen are.
+contents, its status is *Proposed*, not *Accepted* — seven of the thirty-two are.
 
 ---
 
 ## Featured work
 
 <table>
+<tr>
+<td width="50%">
+
+### Agentic SDLC
+
+[![Agentic SDLC Harness](https://img.shields.io/badge/ASF-Agentic_SDLC_Harness-D97757?style=flat-square&logo=anthropic)](https://github.com/morgandt-reed/agentic-sdlc-harness)
+
+Agent configuration treated as compiler output. A tool-neutral spec format
+compiles into `.claude/` — and into a second, deliberately different layout, so
+tool-independence is exercised rather than asserted — with a lock file and a
+drift gate whose whole rule is one equality:
+`render(merge(fresh, on_disk)) != on_disk`. Output is byte-identical across
+three operating systems, because a gate that reports differences nobody made
+gets switched off.
+
+[![Brownfield AI Readiness](https://img.shields.io/badge/Brownfield-AI_Readiness_Scanner-3776AB?style=flat-square&logo=python)](https://github.com/morgandt-reed/brownfield-ai-readiness)
+
+An assessment method for whether an existing application estate is ready for
+agentic tooling, and a scanner implementing only the part of it that is
+mechanical. Dimensions with no machine signal are reported unscored rather than
+as zero, there is deliberately no composite score, and the README's worked
+example is diffed against live CLI output in CI.
+
+</td>
+<td width="50%">
+
+### AI economics
+
+[![LLM Inference Economics](https://img.shields.io/badge/Build_vs_Buy-LLM_Inference_Economics-2E8B57?style=flat-square&logo=nvidia)](https://github.com/morgandt-reed/llm-inference-economics)
+
+A build-vs-buy model for LLM inference where every price is public, dated and
+cited — a provenance test suite fails the build if any number loses its source.
+The position it defends: self-hosting an open-weight model competes against that
+model's own API, not a frontier one, and the one break-even the tool does find
+prints together with the warning that the comparison is rigged.
+
+</td>
+</tr>
 <tr>
 <td width="50%">
 
@@ -163,7 +201,12 @@ backtick in a resource name is otherwise code execution.
 
 Each repository carries architecture decision records in `docs/adr/`. They state
 what was decided, what it costs, and what was rejected — including the decisions
-that turned out to be wrong. Five worth reading:
+that turned out to be wrong. Six worth reading:
+
+- **[Self-hosting competes with the open model's own API, not a frontier API](https://github.com/morgandt-reed/llm-inference-economics/blob/main/docs/adr/0001-what-self-hosting-competes-with.md)**
+  — the comparison everyone runs prices weights you cannot download onto GPUs you
+  are paying for. Against the correct comparator, scale dilutes fixed costs but
+  never drops below marginal cost, so no head count breaks even.
 
 - **[Prefer workload identity over any stored credential](https://github.com/morgandt-reed/infrastructure-as-code-demos/blob/main/docs/adr/0002-eliminate-the-secret.md)**
   — eliminating a requirement beats automating it. With platform-native identity
@@ -191,7 +234,7 @@ that turned out to be wrong. Five worth reading:
   so the answer is tuned severity thresholds and justified per-finding
   suppressions that still fail on anything new, not a blanket bypass.
 
-The remaining thirteen are linked from each repository's **Design decisions**
+The remaining twenty-six are linked from each repository's **Design decisions**
 section.
 
 ---
